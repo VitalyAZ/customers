@@ -14,7 +14,11 @@ fun main(args: Array<String>) {
 	runApplication<OpenshiftWebApplication>(*args)
 
 	println()
-	println("\thttp://localhost:8081/customers")
+	println("\tprd - http://localhost:8080/customers")
+	println("\tprd - http://localhost:8080/health")
+	println()
+	println("\tdev - http://localhost:8081/customers")
+	println("\tdev - http://localhost:8081/health")
 	println()
 }
 
